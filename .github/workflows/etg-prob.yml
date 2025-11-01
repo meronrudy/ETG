@@ -1,0 +1,35 @@
+name: etg-prob deterministic tests
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'etg/etg-prob/**'
+      - '.github/workflows/etg-prob.yml'
+      - 'etg/etg-core/**'
+  pull_request:
+    paths:
+      - 'etg/etg-prob/**'
+      - '.github/workflows/etg-prob.yml'
+      - 'etg/etg-core/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      PROPTEST_SEED: '12345'
+      CARGO_TERM_COLOR: always
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: |
+            etg
+      - name: Show tool versions
+        run: |
+          rustc -V
+          cargo -V
+      - name: Run etg-prob tests deterministically
+        working-directory: etg
+        run: cargo test -p etg-prob -- --nocapture

@@ -1,0 +1,12 @@
+[package]
+name = "etg-core"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+description = "Deterministic Event-Time Geometry core (D-ETG) — stable API for v0.1"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+rand = "0.8"

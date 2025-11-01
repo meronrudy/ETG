@@ -1,0 +1,54 @@
+DIGEST 9c6d12082fafeec1d4045eaff963ad1d
+FTop.Metric
+R24:28 Coq.Reals.Reals <> <> lib
+rec 88:98 <> MetricSpace
+proj 116:119 <> dist
+proj 138:148 <> dist_nonneg
+proj 181:187 <> dist_id
+proj 229:236 <> dist_sym
+proj 275:282 <> dist_tri
+binder 101:101 <> L:1
+R124:127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R123:123 Top.Metric <> L:1 var
+R129:132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R128:128 Top.Metric <> L:1 var
+R133:133 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 159:159 <> x:4
+binder 161:161 <> y:5
+R165:168 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R169:172 Top.Metric <> dist:3 meth
+R176:176 Top.Metric <> y:5 var
+R174:174 Top.Metric <> x:4 var
+binder 198:198 <> x:7
+binder 200:200 <> y:8
+R215:219 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R211:213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R203:206 Top.Metric <> dist:3 meth
+R210:210 Top.Metric <> y:8 var
+R208:208 Top.Metric <> x:7 var
+R221:223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R220:220 Top.Metric <> x:7 var
+R224:224 Top.Metric <> y:8 var
+binder 247:247 <> x:10
+binder 249:249 <> y:11
+R260:262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R252:255 Top.Metric <> dist:3 meth
+R259:259 Top.Metric <> y:11 var
+R257:257 Top.Metric <> x:10 var
+R263:266 Top.Metric <> dist:3 meth
+R270:270 Top.Metric <> x:10 var
+R268:268 Top.Metric <> y:11 var
+binder 293:293 <> x:13
+binder 295:295 <> y:14
+binder 297:297 <> z:15
+R308:311 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R300:303 Top.Metric <> dist:3 meth
+R307:307 Top.Metric <> z:15 var
+R305:305 Top.Metric <> x:13 var
+R320:322 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R312:315 Top.Metric <> dist:3 meth
+R319:319 Top.Metric <> y:14 var
+R317:317 Top.Metric <> x:13 var
+R323:326 Top.Metric <> dist:3 meth
+R330:330 Top.Metric <> z:15 var
+R328:328 Top.Metric <> y:14 var

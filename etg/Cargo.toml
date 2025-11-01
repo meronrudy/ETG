@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "etg-core",
+    "etg-prob",
+    "etg-geom",
+    "etg-evolve",
+    "etg-wasm"
+]
+resolver = "2"

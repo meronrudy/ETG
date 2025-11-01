@@ -1,0 +1,85 @@
+DIGEST 68a0100b3bc70532cdb278af8cdcbce6
+FTop.Frames
+R24:28 Coq.Reals.Reals <> <> lib
+R30:34 Coq.micromega.Psatz <> <> lib
+R52:55 Top.DETG <> <> lib
+R57:60 Top.Base <> <> lib
+mod 121:126 <> Frames
+rec 298:302 Frames Frame
+proj 322:325 Frames x_of
+R307:310 Top.DETG <> DETG rec
+binder 305:305 <> M:1
+R332:335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R329:329 Top.DETG <> L proj
+R331:331 Top.Frames <> M:1 var
+R336:336 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 488:490 Frames dtx
+R495:498 Top.DETG <> DETG rec
+binder 493:493 <> M:4
+R504:508 Top.Frames Frames Frame rec
+R510:510 Top.Frames <> M:4 var
+binder 502:502 <> F:5
+R521:521 Top.DETG <> E proj
+R523:523 Top.Frames <> M:4 var
+binder 514:515 <> e1:6
+binder 517:518 <> e2:7
+R529:529 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R528:528 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R530:530 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R567:569 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R549:552 Top.Frames Frames x_of proj
+R557:560 Top.DETG <> L_of proj
+R564:565 Top.Frames <> e2:7 var
+R562:562 Top.Frames <> M:4 var
+R554:554 Top.Frames <> F:5 var
+R570:573 Top.Frames Frames x_of proj
+R578:581 Top.DETG <> L_of proj
+R585:586 Top.Frames <> e1:6 var
+R583:583 Top.Frames <> M:4 var
+R575:575 Top.Frames <> F:5 var
+binder 543:544 <> dx:8
+R615:617 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R606:609 Top.DETG <> T_of proj
+R613:614 Top.Frames <> e2:7 var
+R611:611 Top.Frames <> M:4 var
+R618:621 Top.DETG <> T_of proj
+R625:626 Top.Frames <> e1:6 var
+R623:623 Top.Frames <> M:4 var
+binder 600:601 <> dt:9
+R631:631 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R634:635 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R638:638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R632:633 Top.Frames <> dt:9 var
+R636:637 Top.Frames <> dx:8 var
+def 712:721 Frames boost_diff
+R726:729 Top.DETG <> DETG rec
+binder 724:724 <> M:10
+R735:735 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 733:733 <> v:11
+R746:746 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R745:745 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R747:747 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 739:743 <> dt_dx:12
+R753:753 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R752:752 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R754:754 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R779:783 Top.Frames <> dt_dx:12 var
+R768:768 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R771:771 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R774:774 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R803:810 Top.Base Base boost_dt def
+R818:818 Top.Frames <> v:11 var
+R813:813 Top.DETG <> c proj
+R815:815 Top.Frames <> M:10 var
+binder 796:798 <> dt':14
+R844:851 Top.Base Base boost_dx def
+R859:859 Top.Frames <> v:11 var
+R854:854 Top.DETG <> c proj
+R856:856 Top.Frames <> M:10 var
+binder 837:839 <> dx':15
+R870:870 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R874:874 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R878:878 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R871:873 Top.Frames <> dt':14 var
+R875:877 Top.Frames <> dx':15 var
+R886:891 Top.Frames Frames <> mod

@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cargo build (workspace)
+        working-directory: etg
+        run: cargo build --workspace --all-targets
+
+      - name: Cargo test (workspace)
+        working-directory: etg
+        run: cargo test --workspace --all-features -- --quiet
+
+      - name: Install Coq (Ubuntu)
+        if: matrix.os == 'ubuntu-latest'
+        run: sudo apt-get update && sudo apt-get install -y coq make
+
+      - name: Install Coq (macOS)
+        if: matrix.os == 'macos-latest'
+        run: brew update && brew install coq || true
+
+      - name: Build Coq proofs
+        run: make -C etg/proofs-coq all

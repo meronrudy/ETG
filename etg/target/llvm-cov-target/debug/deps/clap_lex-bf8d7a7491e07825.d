@@ -1,0 +1,8 @@
+/Volumes/2.5SSDDD128/Proofs/ETG/etg/target/llvm-cov-target/debug/deps/clap_lex-bf8d7a7491e07825.d: /Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/lib.rs /Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/ext.rs
+
+/Volumes/2.5SSDDD128/Proofs/ETG/etg/target/llvm-cov-target/debug/deps/libclap_lex-bf8d7a7491e07825.rlib: /Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/lib.rs /Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/ext.rs
+
+/Volumes/2.5SSDDD128/Proofs/ETG/etg/target/llvm-cov-target/debug/deps/libclap_lex-bf8d7a7491e07825.rmeta: /Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/lib.rs /Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/ext.rs
+
+/Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/lib.rs:
+/Users/mini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_lex-0.7.6/src/ext.rs:

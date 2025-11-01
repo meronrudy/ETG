@@ -1,0 +1,28 @@
+DIGEST bc688f1151cadec2ed09fbbf6499f9d4
+FTop.GETG
+R24:28 Coq.Reals.Reals <> <> lib
+R30:34 Coq.micromega.Psatz <> <> lib
+R52:57 Top.Metric <> <> lib
+R59:62 Top.DETG <> <> lib
+mod 123:126 <> GETG
+rec 212:219 GETG Geometry
+proj 239:241 GETG g_t
+binder 222:222 <> L:1
+R246:250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R262:262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R245:245 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R252:255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R251:251 Top.GETG <> L:1 var
+R257:260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R256:256 Top.GETG <> L:1 var
+R261:261 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 382:387 GETG evolve
+binder 399:399 <> L:4
+R413:416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R403:410 Top.GETG GETG Geometry rec
+R412:412 Top.GETG <> L:4 var
+R418:421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R417:417 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R422:429 Top.GETG GETG Geometry rec
+R431:431 Top.GETG <> L:4 var
+R439:442 Top.GETG GETG <> mod

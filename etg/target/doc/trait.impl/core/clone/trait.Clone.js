@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["etg_core",[["impl&lt;L: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.90.0/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.90.0/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a> for <a class=\"struct\" href=\"etg_core/struct.Event.html\" title=\"struct etg_core::Event\">Event</a>&lt;L&gt;"]]],["etg_evolve",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.90.0/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a> for <a class=\"struct\" href=\"etg_evolve/struct.DiffuseEvolver.html\" title=\"struct etg_evolve::DiffuseEvolver\">DiffuseEvolver</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.90.0/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a> for <a class=\"struct\" href=\"etg_evolve/struct.Field1D.html\" title=\"struct etg_evolve::Field1D\">Field1D</a>"]]],["etg_geom",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.90.0/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a> for <a class=\"struct\" href=\"etg_geom/struct.ScaledEuclid1D.html\" title=\"struct etg_geom::ScaledEuclid1D\">ScaledEuclid1D</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.90.0/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a> for <a class=\"struct\" href=\"etg_geom/struct.SimpleGeom.html\" title=\"struct etg_geom::SimpleGeom\">SimpleGeom</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[413,550,549]}

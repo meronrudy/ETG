@@ -1,0 +1,5 @@
+-R . ETG
+-Q . ETG
+
+# Dependencies: Coq Reals
+# If you install MathComp later, you can add its -Q lines here.

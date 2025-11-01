@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["boost","causally_allows","interval","s2"],"struct":["Boost1D","Euclid1D","Event"],"trait":["LorentzLike","MetricSpace"],"type":["Scalar"]};

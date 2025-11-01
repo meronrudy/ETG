@@ -1,0 +1,246 @@
+DIGEST 9302bc315418a15d4fcec0ce0d65d23b
+FTop.Invariance
+R24:28 Coq.Reals.Reals <> <> lib
+R30:34 Coq.micromega.Psatz <> <> lib
+R52:55 Top.Base <> <> lib
+R57:60 Top.DETG <> <> lib
+R62:67 Top.Frames <> <> lib
+sec 129:138 <> Invariance
+R154:157 Top.DETG <> DETG rec
+binder 152:152 <> M:1
+def 175:180 <> s2_num
+R189:189 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 183:184 <> dt:2
+binder 186:187 <> dx:3
+R194:194 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R215:217 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R210:210 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R199:199 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R203:205 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R209:209 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R200:200 Top.DETG <> c proj
+R202:202 Top.Invariance <> Invariance.M var
+R206:206 Top.DETG <> c proj
+R208:208 Top.Invariance <> Invariance.M var
+R213:213 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R211:212 Top.Invariance <> dt:2 var
+R220:220 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R218:219 Top.Invariance <> dx:3 var
+prf 235:260 <> s2_boost_invariant_numbers
+R281:281 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 273:273 <> v:4
+binder 275:276 <> dt:5
+binder 278:279 <> dx:6
+R305:307 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R299:302 Coq.Reals.Rbasic_fun <> Rabs def
+R304:304 Top.Invariance <> v:4 var
+R308:308 Top.DETG <> c proj
+R310:310 Top.Invariance <> Invariance.M var
+binder 295:296 <> Vb:7
+R375:381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R319:324 Top.Invariance <> s2_num def
+R352:359 Top.Base Base boost_dx def
+R372:373 Top.Invariance <> dx:6 var
+R369:370 Top.Invariance <> dt:5 var
+R367:367 Top.Invariance <> v:4 var
+R362:362 Top.DETG <> c proj
+R364:364 Top.Invariance <> Invariance.M var
+R327:334 Top.Base Base boost_dt def
+R347:348 Top.Invariance <> dx:6 var
+R344:345 Top.Invariance <> dt:5 var
+R342:342 Top.Invariance <> v:4 var
+R337:337 Top.DETG <> c proj
+R339:339 Top.Invariance <> Invariance.M var
+R382:387 Top.Invariance <> s2_num def
+R392:393 Top.Invariance <> dx:6 var
+R389:390 Top.Invariance <> dt:5 var
+R416:421 Top.Invariance <> s2_num def
+R435:453 Top.Base Base boost_invariance_1d thm
+R463:467 Top.DETG <> c_pos proj
+R435:453 Top.Base Base boost_invariance_1d thm
+R463:467 Top.DETG <> c_pos proj
+prf 573:597 <> s2_boost_invariant_events
+R602:606 Top.Frames Frames Frame rec
+R608:608 Top.Invariance <> Invariance.M var
+binder 600:600 <> F:8
+R614:614 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 612:612 <> v:9
+R638:640 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R632:635 Coq.Reals.Rbasic_fun <> Rabs def
+R637:637 Top.Invariance <> v:9 var
+R641:641 Top.DETG <> c proj
+R643:643 Top.Invariance <> Invariance.M var
+binder 628:629 <> Vb:10
+R653:653 Top.DETG <> E proj
+R655:655 Top.Invariance <> Invariance.M var
+binder 647:648 <> e1:11
+binder 650:651 <> e2:12
+R681:683 Top.Frames Frames dtx def
+R685:685 Top.Invariance <> Invariance.M var
+R687:687 Top.Invariance <> F:8 var
+R689:690 Top.Invariance <> e1:11 var
+R692:693 Top.Invariance <> e2:12 var
+R669:669 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R672:672 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R675:675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R758:764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R702:707 Top.Invariance <> s2_num def
+R735:742 Top.Base Base boost_dx def
+R750:750 Top.Invariance <> v:9 var
+R745:745 Top.DETG <> c proj
+R747:747 Top.Invariance <> Invariance.M var
+R710:717 Top.Base Base boost_dt def
+R725:725 Top.Invariance <> v:9 var
+R720:720 Top.DETG <> c proj
+R722:722 Top.Invariance <> Invariance.M var
+R765:770 Top.Invariance <> s2_num def
+R806:831 Top.Invariance <> s2_boost_invariant_numbers thm
+R806:831 Top.Invariance <> s2_boost_invariant_numbers thm
+prf 937:958 <> s2_class_pos_invariant
+R963:967 Top.Frames Frames Frame rec
+R969:969 Top.Invariance <> Invariance.M var
+binder 961:961 <> F:13
+R975:975 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 973:973 <> v:14
+R1001:1003 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R995:998 Coq.Reals.Rbasic_fun <> Rabs def
+R1000:1000 Top.Invariance <> v:14 var
+R1004:1004 Top.DETG <> c proj
+R1006:1006 Top.Invariance <> Invariance.M var
+binder 991:992 <> Vb:15
+R1016:1016 Top.DETG <> E proj
+R1018:1018 Top.Invariance <> Invariance.M var
+binder 1010:1011 <> e1:16
+binder 1013:1014 <> e2:17
+R1044:1046 Top.Frames Frames dtx def
+R1048:1048 Top.Invariance <> Invariance.M var
+R1050:1050 Top.Invariance <> F:13 var
+R1052:1053 Top.Invariance <> e1:16 var
+R1055:1056 Top.Invariance <> e2:17 var
+R1032:1032 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1035:1035 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1038:1038 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1065:1065 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1126:1136 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1153:1153 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1067:1069 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1070:1075 Top.Invariance <> s2_num def
+R1103:1110 Top.Base Base boost_dx def
+R1118:1118 Top.Invariance <> v:14 var
+R1113:1113 Top.DETG <> c proj
+R1115:1115 Top.Invariance <> Invariance.M var
+R1078:1085 Top.Base Base boost_dt def
+R1093:1093 Top.Invariance <> v:14 var
+R1088:1088 Top.DETG <> c proj
+R1090:1090 Top.Invariance <> Invariance.M var
+R1138:1140 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1141:1146 Top.Invariance <> s2_num def
+R1180:1182 Top.Frames Frames dtx def
+R1184:1184 Top.Invariance <> Invariance.M var
+R1180:1182 Top.Frames Frames dtx def
+R1184:1184 Top.Invariance <> Invariance.M var
+R1281:1306 Top.Invariance <> s2_boost_invariant_numbers thm
+R1281:1306 Top.Invariance <> s2_boost_invariant_numbers thm
+R1281:1306 Top.Invariance <> s2_boost_invariant_numbers thm
+R1353:1378 Top.Invariance <> s2_boost_invariant_numbers thm
+R1353:1378 Top.Invariance <> s2_boost_invariant_numbers thm
+R1353:1378 Top.Invariance <> s2_boost_invariant_numbers thm
+prf 1427:1449 <> s2_class_zero_invariant
+R1454:1458 Top.Frames Frames Frame rec
+R1460:1460 Top.Invariance <> Invariance.M var
+binder 1452:1452 <> F:18
+R1466:1466 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1464:1464 <> v:19
+R1492:1494 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1486:1489 Coq.Reals.Rbasic_fun <> Rabs def
+R1491:1491 Top.Invariance <> v:19 var
+R1495:1495 Top.DETG <> c proj
+R1497:1497 Top.Invariance <> Invariance.M var
+binder 1482:1483 <> Vb:20
+R1507:1507 Top.DETG <> E proj
+R1509:1509 Top.Invariance <> Invariance.M var
+binder 1501:1502 <> e1:21
+binder 1504:1505 <> e2:22
+R1535:1537 Top.Frames Frames dtx def
+R1539:1539 Top.Invariance <> Invariance.M var
+R1541:1541 Top.Invariance <> F:18 var
+R1543:1544 Top.Invariance <> e1:21 var
+R1546:1547 Top.Invariance <> e2:22 var
+R1523:1523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1526:1526 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1529:1529 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1556:1556 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1617:1627 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1644:1644 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1613:1615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1557:1562 Top.Invariance <> s2_num def
+R1590:1597 Top.Base Base boost_dx def
+R1605:1605 Top.Invariance <> v:19 var
+R1600:1600 Top.DETG <> c proj
+R1602:1602 Top.Invariance <> Invariance.M var
+R1565:1572 Top.Base Base boost_dt def
+R1580:1580 Top.Invariance <> v:19 var
+R1575:1575 Top.DETG <> c proj
+R1577:1577 Top.Invariance <> Invariance.M var
+R1640:1642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1628:1633 Top.Invariance <> s2_num def
+R1671:1673 Top.Frames Frames dtx def
+R1675:1675 Top.Invariance <> Invariance.M var
+R1671:1673 Top.Frames Frames dtx def
+R1675:1675 Top.Invariance <> Invariance.M var
+R1772:1797 Top.Invariance <> s2_boost_invariant_numbers thm
+R1772:1797 Top.Invariance <> s2_boost_invariant_numbers thm
+R1772:1797 Top.Invariance <> s2_boost_invariant_numbers thm
+R1844:1869 Top.Invariance <> s2_boost_invariant_numbers thm
+R1844:1869 Top.Invariance <> s2_boost_invariant_numbers thm
+R1844:1869 Top.Invariance <> s2_boost_invariant_numbers thm
+prf 1918:1939 <> s2_class_neg_invariant
+R1944:1948 Top.Frames Frames Frame rec
+R1950:1950 Top.Invariance <> Invariance.M var
+binder 1942:1942 <> F:23
+R1956:1956 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1954:1954 <> v:24
+R1982:1984 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1976:1979 Coq.Reals.Rbasic_fun <> Rabs def
+R1981:1981 Top.Invariance <> v:24 var
+R1985:1985 Top.DETG <> c proj
+R1987:1987 Top.Invariance <> Invariance.M var
+binder 1972:1973 <> Vb:25
+R1997:1997 Top.DETG <> E proj
+R1999:1999 Top.Invariance <> Invariance.M var
+binder 1991:1992 <> e1:26
+binder 1994:1995 <> e2:27
+R2025:2027 Top.Frames Frames dtx def
+R2029:2029 Top.Invariance <> Invariance.M var
+R2031:2031 Top.Invariance <> F:23 var
+R2033:2034 Top.Invariance <> e1:26 var
+R2036:2037 Top.Invariance <> e2:27 var
+R2013:2013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2016:2016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2019:2019 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2046:2046 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2107:2117 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2134:2134 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2103:2105 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2047:2052 Top.Invariance <> s2_num def
+R2080:2087 Top.Base Base boost_dx def
+R2095:2095 Top.Invariance <> v:24 var
+R2090:2090 Top.DETG <> c proj
+R2092:2092 Top.Invariance <> Invariance.M var
+R2055:2062 Top.Base Base boost_dt def
+R2070:2070 Top.Invariance <> v:24 var
+R2065:2065 Top.DETG <> c proj
+R2067:2067 Top.Invariance <> Invariance.M var
+R2130:2132 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2118:2123 Top.Invariance <> s2_num def
+R2161:2163 Top.Frames Frames dtx def
+R2165:2165 Top.Invariance <> Invariance.M var
+R2161:2163 Top.Frames Frames dtx def
+R2165:2165 Top.Invariance <> Invariance.M var
+R2262:2287 Top.Invariance <> s2_boost_invariant_numbers thm
+R2262:2287 Top.Invariance <> s2_boost_invariant_numbers thm
+R2262:2287 Top.Invariance <> s2_boost_invariant_numbers thm
+R2334:2359 Top.Invariance <> s2_boost_invariant_numbers thm
+R2334:2359 Top.Invariance <> s2_boost_invariant_numbers thm
+R2334:2359 Top.Invariance <> s2_boost_invariant_numbers thm
+R2400:2409 Top.Invariance Invariance <> sec

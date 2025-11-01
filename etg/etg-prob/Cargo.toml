@@ -1,0 +1,15 @@
+[package]
+name = "etg-prob"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+description = "Probabilistic ETG (P-ETG) skeleton extending etg-core without breaking changes"
+
+[dependencies]
+etg-core = { path = "../etg-core" }
+rand = "0.8"
+
+[dev-dependencies]
+proptest = "1"
+rand = "0.8"
+criterion = "0.5"

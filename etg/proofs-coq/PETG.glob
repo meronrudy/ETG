@@ -1,0 +1,47 @@
+DIGEST ed30d63f0a6b26d5ff298522f0628647
+FTop.PETG
+R24:28 Coq.Reals.Reals <> <> lib
+R30:34 Coq.micromega.Psatz <> <> lib
+R52:55 Top.DETG <> <> lib
+R57:60 Top.Base <> <> lib
+mod 121:124 <> PETG
+rec 200:201 PETG RV
+proj 217:222 PETG sample
+binder 204:204 <> A:1
+R229:232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R226:228 Coq.Init.Datatypes <> nat ind
+R233:233 Top.PETG <> A:1 var
+rec 248:254 PETG EventRV
+proj 274:276 PETG Lrv
+proj 294:296 PETG Trv
+R259:262 Top.DETG <> DETG rec
+binder 257:257 <> M:4
+R280:281 Top.PETG PETG RV rec
+R284:284 Top.DETG <> L proj
+R286:286 Top.PETG <> M:4 var
+R300:301 Top.PETG PETG RV rec
+R303:303 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 324:328 PETG dt_rv
+R333:336 Top.DETG <> DETG rec
+binder 331:331 <> M:8
+R346:352 Top.PETG PETG EventRV rec
+R354:354 Top.PETG <> M:8 var
+binder 340:341 <> E1:9
+binder 343:344 <> E2:10
+R359:360 Top.PETG PETG RV rec
+R362:362 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R374:379 Top.PETG PETG sample proj
+R374:379 Top.PETG PETG sample proj
+binder 388:388 <> n:11
+R426:428 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R402:407 Top.PETG PETG sample proj
+R425:425 Top.PETG <> n:11 var
+R417:419 Top.PETG PETG Trv proj
+R421:422 Top.PETG <> E2:10 var
+R413:413 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R429:434 Top.PETG PETG sample proj
+R452:452 Top.PETG <> n:11 var
+R444:446 Top.PETG PETG Trv proj
+R448:449 Top.PETG <> E1:9 var
+R440:440 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R557:560 Top.PETG PETG <> mod

@@ -1,0 +1,1 @@
+{"rustc":9783247635632824192,"features":"[]","declared_features":"[]","target":5607787597846815505,"profile":5602833882395659910,"path":15694783811399124199,"deps":[[4227195602042081583,"etg_core",false,1465293955336706839]],"local":[{"Precalculated":"1761940131.965662393s (tests/slice.rs)"}],"rustflags":[],"config":2069994364910194474,"compile_kind":0}

@@ -1,0 +1,10 @@
+[package]
+name = "etg-evolve"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+description = "Evolution stepper for dynamic geometry (skeleton)"
+
+[dependencies]
+etg-core = { path = "../etg-core" }
+etg-geom = { path = "../etg-geom" }

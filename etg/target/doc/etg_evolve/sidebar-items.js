@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["conserved_sum"],"struct":["DiffuseEvolver","Field1D"],"trait":["Evolver"]};

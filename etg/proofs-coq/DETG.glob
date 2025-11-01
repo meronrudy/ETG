@@ -1,0 +1,103 @@
+DIGEST 37f51991145feee1406df90455df48c1
+FTop.DETG
+R24:28 Coq.Reals.Reals <> <> lib
+R30:34 Coq.micromega.Psatz <> <> lib
+R52:57 Top.Metric <> <> lib
+R59:62 Top.Base <> <> lib
+rec 123:126 <> DETG
+proj 135:135 <> L
+proj 147:147 <> E
+proj 159:162 <> T_of
+proj 202:205 <> L_of
+proj 245:246 <> MS
+proj 292:292 <> c
+proj 340:344 <> c_pos
+R167:170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R166:166 Top.DETG <> E:3 meth
+R171:171 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R210:213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R209:209 Top.DETG <> E:3 meth
+R214:214 Top.DETG <> L:2 meth
+R250:260 Top.Metric <> MetricSpace class
+R262:262 Top.DETG <> L:2 meth
+R296:296 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R349:351 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R352:352 Top.DETG <> c:7 meth
+R368:371 Top.Metric <> dist meth
+R368:371 Top.Metric <> dist meth
+sec 395:407 <> Deterministic
+R424:427 Top.DETG <> DETG rec
+binder 421:421 <> M:9
+var 437:437 Deterministic c
+R442:442 Top.DETG <> c proj
+R444:444 Top.DETG <> Deterministic.M var
+var 453:456 Deterministic cpos
+R461:465 Top.DETG <> c_pos proj
+R467:467 Top.DETG <> Deterministic.M var
+def 484:485 <> dt
+R495:495 Top.DETG <> E proj
+R497:497 Top.DETG <> Deterministic.M var
+binder 488:489 <> e1:10
+binder 491:492 <> e2:11
+R502:502 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R516:518 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R507:510 Top.DETG <> T_of proj
+R514:515 Top.DETG <> e2:11 var
+R512:512 Top.DETG <> Deterministic.M var
+R519:522 Top.DETG <> T_of proj
+R526:527 Top.DETG <> e1:10 var
+R524:524 Top.DETG <> Deterministic.M var
+def 543:544 <> dx
+R554:554 Top.DETG <> E proj
+R556:556 Top.DETG <> Deterministic.M var
+binder 547:548 <> e1:12
+binder 550:551 <> e2:13
+R561:561 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R571:574 Top.Metric <> dist meth
+R577:577 Top.DETG <> L proj
+R579:579 Top.DETG <> Deterministic.M var
+R583:584 Top.DETG <> MS proj
+R586:586 Top.DETG <> Deterministic.M var
+R590:593 Top.DETG <> L_of proj
+R597:598 Top.DETG <> e1:12 var
+R595:595 Top.DETG <> Deterministic.M var
+R602:605 Top.DETG <> L_of proj
+R609:610 Top.DETG <> e2:13 var
+R607:607 Top.DETG <> Deterministic.M var
+def 628:629 <> s2
+R639:639 Top.DETG <> E proj
+R641:641 Top.DETG <> Deterministic.M var
+binder 632:633 <> e1:14
+binder 635:636 <> e2:15
+R646:646 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R667:669 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R654:654 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R652:652 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R651:651 Top.DETG <> Deterministic.c var
+R653:653 Top.DETG <> Deterministic.c var
+R655:655 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R664:665 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R656:657 Top.DETG <> dt def
+R662:663 Top.DETG <> e2:15 var
+R659:660 Top.DETG <> e1:14 var
+R670:670 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R679:680 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R671:672 Top.DETG <> dx def
+R677:678 Top.DETG <> e2:15 var
+R674:675 Top.DETG <> e1:14 var
+def 745:748 <> caus
+R758:758 Top.DETG <> E proj
+R760:760 Top.DETG <> Deterministic.M var
+binder 751:752 <> e1:16
+binder 754:755 <> e2:17
+R781:784 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R773:774 Top.DETG <> dt def
+R779:780 Top.DETG <> e2:17 var
+R776:777 Top.DETG <> e1:16 var
+R785:785 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R794:797 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R786:787 Top.DETG <> dx def
+R792:793 Top.DETG <> e2:17 var
+R789:790 Top.DETG <> e1:16 var
+R798:798 Top.DETG <> Deterministic.c var
+R806:818 Top.DETG Deterministic <> sec

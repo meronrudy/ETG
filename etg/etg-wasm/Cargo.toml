@@ -1,0 +1,17 @@
+[package]
+name = "etg-wasm"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "WASM MVP runtime/interpreter"
+
+[lib]
+name = "etg_wasm"
+path = "src/lib.rs"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+thiserror = "1"
